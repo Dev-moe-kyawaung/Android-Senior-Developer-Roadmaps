@@ -1,0 +1,117 @@
+{
+  "premiumPacks": [
+    {
+      "id": "pack_basic",
+      "name": "Basic Premium",
+      "description": "Great for beginners",
+      "price": 4.99,
+      "currency": "USD",
+      "duration": 30,
+      "features": [
+        "Access to all roadmaps",
+        "50 projects showcase",
+        "Basic tutorials",
+        "Offline mode",
+        "Ad-free experience"
+      ],
+      "discount": 0,
+      "isPopular": false,
+      "rating": 4.2
+    },
+    {
+      "id": "pack_pro",
+      "name": "Professional",
+      "description": "For serious developers",
+      "price": 9.99,
+      "currency": "USD",
+      "duration": 30,
+      "features": [
+        "Everything in Basic",
+        "200+ advanced projects",
+        "Expert tutorials",
+        "Code snippets library",
+        "Priority support",
+        "Advanced analytics",
+        "Custom roadmaps"
+      ],
+      "discount": 0,
+      "isPopular": true,
+      "rating": 4.6
+    },
+    {
+      "id": "pack_enterprise",
+      "name": "Enterprise",
+      "description": "For teams and organizations",
+      "price": 29.99,
+      "currency": "USD",
+      "duration": 30,
+      "features": [
+        "Everything in Professional",
+        "Team management (up to 50 members)",
+        "API access",
+        "Custom integrations",
+        "Dedicated support",
+        "Advanced security",
+        "Usage analytics & reports"
+      ],
+      "discount": 0,
+      "isPopular": false,
+      "rating": 4.8
+    },
+    {
+      "id": "pack_lifetime",
+      "name": "Lifetime Access",
+      "description": "One-time purchase",
+      "price": 99.99,
+      "currency": "USD",
+      "duration": 99999,
+      "features": [
+        "Everything included",
+        "Lifetime updates",
+        "Lifetime support",
+        "Future features included",
+        "All premium content forever"
+      ],
+      "discount": 15,
+      "isPopular": false,
+      "rating": 4.9
+    }
+  ],
+  "features": [
+    {
+      "id": "feature_roadmaps",
+      "name": "Comprehensive Roadmaps",
+      "description": "Interactive learning paths for all skill levels",
+      "category": "learning",
+      "priority": 10
+    },
+    {
+      "id": "feature_projects",
+      "name": "Real-world Projects",
+      "description": "Build practical projects with source code",
+      "category": "projects",
+      "priority": 9
+    },
+    {
+      "id": "feature_tutorials",
+      "name": "Video Tutorials",
+      "description": "Professional video tutorials and guides",
+      "category": "education",
+      "priority": 8
+    },
+    {
+      "id": "feature_snippets",
+      "name": "Code Snippets",
+      "description": "Reusable code snippets and templates",
+      "category": "resources",
+      "priority": 7
+    },
+    {
+      "id": "feature_offline",
+      "name": "Offline Mode",
+      "description": "Access premium content offline",
+      "category": "features",
+      "priority": 6
+    }
+  ]
+}
