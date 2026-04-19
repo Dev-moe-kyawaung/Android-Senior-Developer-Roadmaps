@@ -1,0 +1,47 @@
+premium-pack/
+├── data/
+│   ├── models/
+│   │   ├── PremiumPack.kt
+│   │   ├── PremiumFeature.kt
+│   │   ├── SubscriptionTier.kt
+│   │   └── PurchaseItem.kt
+│   ├── local/
+│   │   ├── PremiumDao.kt
+│   │   └── PremiumDatabase.kt
+│   ├── remote/
+│   │   ├── PremiumApiService.kt
+│   │   └── BillingService.kt
+│   └── repository/
+│       └── PremiumRepository.kt
+├── domain/
+│   ├── usecase/
+│   │   ├── GetPremiumPackUseCase.kt
+│   │   ├── CheckPremiumStatusUseCase.kt
+│   │   ├── PurchaseItemUseCase.kt
+│   │   └── RestorePurchaseUseCase.kt
+│   └── model/
+│       └── DomainModels.kt
+├── presentation/
+│   ├── viewmodel/
+│   │   └── PremiumViewModel.kt
+│   ├── ui/
+│   │   ├── screens/
+│   │   │   ├── PremiumHomeScreen.kt
+│   │   │   ├── PricingScreen.kt
+│   │   │   ├── PaymentScreen.kt
+│   │   │   └── PremiumFeaturesScreen.kt
+│   │   └── components/
+│   │       ├── PremiumCard.kt
+│   │       ├── FeaturesList.kt
+│   │       └── PricingTier.kt
+│   └── navigation/
+│       └── PremiumNavigation.kt
+├── billing/
+│   ├── BillingClientSetup.kt
+│   ├── PurchaseListener.kt
+│   └── SkuDetailsManager.kt
+└── utils/
+    ├── PremiumConstants.kt
+    ├── PremiumValidator.kt
+    └── EncryptionUtil.kt
+
